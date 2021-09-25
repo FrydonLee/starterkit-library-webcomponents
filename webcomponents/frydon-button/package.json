@@ -3,7 +3,7 @@
   "description": "Webcomponent frydon-button following open-wc recommendations",
   "license": "MIT",
   "author": "frydon-button",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "main": "index.js",
   "module": "index.js",
   "scripts": {
@@ -52,8 +52,8 @@
     ]
   },
   "gitHead": "9f31ac92eca79ca9958d25fd2f7810ff923c031e",
-  "repository":"https://github.com/FrydonLee/starterkit-library-webcomponents.git",
-  "publishConfig":{
+  "repository": "https://github.com/FrydonLee/starterkit-library-webcomponents.git",
+  "publishConfig": {
     "registry": "https://npm.pkg.github.com/@FrydonLee"
   }
 }
