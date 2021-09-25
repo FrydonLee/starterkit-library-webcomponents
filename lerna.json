@@ -6,7 +6,7 @@
   "command": {
     "publish": {
       "message": "chore(release): publish",
-      "registry": "https://github.com/FrydonLee/starterkit-library-webcomponents.git"
+      "registry": "https://npm.pkg.github.com/@FrydonLee"
     }
   }
 }
