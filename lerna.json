@@ -5,7 +5,6 @@
   "version": "independent",
   "command": {
     "publish": {
-      "ignoreChanges": [],
       "message": "chore(release): publish",
       "registry": "https://github.com/FrydonLee/starterkit-library-webcomponents.git"
     }
