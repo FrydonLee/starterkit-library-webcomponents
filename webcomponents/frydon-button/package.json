@@ -3,7 +3,7 @@
   "description": "Webcomponent frydon-button following open-wc recommendations",
   "license": "MIT",
   "author": "frydon-button",
-  "version": "0.0.17",
+  "version": "0.0.18",
   "main": "index.js",
   "module": "index.js",
   "scripts": {
