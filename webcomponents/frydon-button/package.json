@@ -1,5 +1,5 @@
 {
-  "name": "frydon-button",
+  "name": "@frydonlee/frydon-button",
   "description": "Webcomponent frydon-button following open-wc recommendations",
   "license": "MIT",
   "author": "frydon-button",
@@ -51,10 +51,10 @@
       "prettier --write"
     ]
   },
-  "gitHead": "b0c875aaa37dfd143832ccd3766f2ce568a68422",
+  "gitHead": "6058e2d2589f5c3c90b050303dcd58646390abca",
   "repository": {
     "type": "git",
-    "url": "https://github.com/frydonlee/starterkit-library-webcomponents.git",
+    "url": "hgit@github.com:frydonlee/starterkit-library-webcomponents.git",
     "directory": "webcomponents/frydon-button"
   },
   "publishConfig": {
