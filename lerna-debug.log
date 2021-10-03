@@ -1,0 +1,75 @@
+0 silly argv {
+0 silly argv   _: [ 'publish' ],
+0 silly argv   composed: 'publish',
+0 silly argv   lernaVersion: '4.0.0',
+0 silly argv   '$0': '..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\lerna\\cli.js'
+0 silly argv }
+1 notice cli v4.0.0
+2 verbose rootPath C:\Users\Angelo Granata\Codice\personali\starterkit-library-webcomponents
+3 info versioning independent
+4 verbose session b5dbb60637509fb0
+5 verbose user-agent lerna/4.0.0/node@v16.2.0+x64 (win32)
+6 silly argv { _: [ 'publish' ], composed: 'publish', lernaVersion: '4.0.0' }
+7 verbose rootPath C:\Users\Angelo Granata\Codice\personali\starterkit-library-webcomponents
+8 silly isAnythingCommitted
+9 verbose isAnythingCommitted 1
+10 silly getCurrentBranch
+11 verbose currentBranch master
+12 silly remoteBranchExists
+13 silly isBehindUpstream
+14 silly isBehindUpstream master is behind origin/master by 0 commit(s) and ahead by 1
+15 silly hasTags
+16 verbose hasTags true
+17 silly git-describe.sync "frydon-buttonb@0.0.19-1-g1eb480b" => {"lastTagName":"frydon-buttonb@0.0.19","lastVersion":"0.0.19","refCount":"1","sha":"1eb480b","isDirty":false}
+18 info Looking for changed packages since frydon-buttonb@0.0.19
+19 silly checking diff webcomponents/frydon-button
+20 silly found diff in webcomponents/frydon-button/package.json
+20 silly found diff in webcomponents/frydon-button/src/FrydonButton.js
+21 verbose filtered diff [
+21 verbose filtered diff   'webcomponents/frydon-button/package.json',
+21 verbose filtered diff   'webcomponents/frydon-button/src/FrydonButton.js'
+21 verbose filtered diff ]
+22 verbose updated undefined
+23 verbose git-describe undefined => "frydon-buttonb@0.0.19-1-g1eb480b"
+24 silly git-describe parsed => {"lastTagName":"frydon-buttonb@0.0.19","lastVersion":"0.0.19","refCount":"1","sha":"1eb480b","isDirty":false}
+25 info execute Skipping releases
+26 silly lifecycle No script for "preversion" in "starterkit-library-webcomponents", continuing
+27 silly lifecycle No script for "preversion" in undefined, continuing
+28 silly lifecycle No script for "version" in undefined, continuing
+29 silly lifecycle No script for "version" in "starterkit-library-webcomponents", continuing
+30 silly gitAdd [
+30 silly gitAdd   'webcomponents/frydon-button/package.json',
+30 silly gitAdd   'webcomponents/frydon-button/package-lock.json'
+30 silly gitAdd ]
+31 silly gitCommit chore(release): publish
+31 silly gitCommit
+31 silly gitCommit  - undefined@0.0.20
+32 verbose git [
+32 verbose git   'commit',
+32 verbose git   '-F',
+32 verbose git   'C:\\Users\\ANGELO~1\\AppData\\Local\\Temp\\c88431fd-1d06-4fa5-b945-12d60c6b27b2\\lerna-commit.txt'
+32 verbose git ]
+33 silly gitTag undefined@0.0.20
+34 verbose git [ 'tag', 'undefined@0.0.20', '-m', 'undefined@0.0.20' ]
+35 silly lifecycle No script for "postversion" in undefined, continuing
+36 silly lifecycle No script for "postversion" in "starterkit-library-webcomponents", continuing
+37 info git Pushing tags...
+38 silly gitPush origin master
+39 info publish Publishing packages to npm...
+40 notice Skipping all user and access validation due to third-party registry
+41 notice Make sure you're authenticated properly ¯\_(ツ)_/¯
+42 silly getCurrentSHA
+43 verbose getCurrentSHA 7423968a0681f12c832df6777a06a601e60a12d8
+44 silly lifecycle No script for "prepublish" in "starterkit-library-webcomponents", continuing
+45 silly lifecycle No script for "prepare" in "starterkit-library-webcomponents", continuing
+46 silly lifecycle No script for "prepublishOnly" in "starterkit-library-webcomponents", continuing
+47 silly lifecycle No script for "prepack" in "starterkit-library-webcomponents", continuing
+48 verbose pack-directory webcomponents\frydon-button
+49 silly lifecycle No script for "prepublish" in undefined, continuing
+50 silly lifecycle No script for "prepare" in undefined, continuing
+51 silly lifecycle No script for "prepublishOnly" in undefined, continuing
+52 silly lifecycle No script for "prepack" in undefined, continuing
+53 error TypeError: Cannot read property '0' of undefined
+53 error     at getTarballName (C:\Users\Angelo Granata\AppData\Roaming\npm\node_modules\lerna\node_modules\@lerna\pack-directory\lib\pack-directory.js:84:13)
+53 error     at C:\Users\Angelo Granata\AppData\Roaming\npm\node_modules\lerna\node_modules\@lerna\pack-directory\lib\pack-directory.js:70:52
+53 error     at async C:\Users\Angelo Granata\AppData\Roaming\npm\node_modules\lerna\node_modules\p-pipe\index.js:12:19
