@@ -30,7 +30,7 @@ export class FrydonButton extends LitElement {
 
   render() {
     return html`
-      <h2>${this.title} F Nr. ${this.counter}!</h2>
+      <h2>${this.title} button Nr. ${this.counter}!</h2>
       <button @click=${this.__increment}>O increment</button>
     `;
   }
