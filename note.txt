@@ -1,0 +1,5 @@
+To open browser in a tab of vsc
+
+Open the pallet (Ctrl + Shift + P)
+Select "Simple Browser: Preview"
+Enter web address

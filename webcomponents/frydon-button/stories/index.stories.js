@@ -5,17 +5,17 @@ export default {
   title: 'FrydonButton',
   component: 'frydon-button',
   argTypes: {
-    title: { control: 'text' },
-    counter: { control: 'number' },
-    textColor: { control: 'color' },
+    text: { control: 'text' },
+    // counter: { control: 'number' },
+    // textColor: { control: 'color' },
   },
 };
 
-function Template({ title = 'Hello world', counter = 5, textColor, slot }) {
+function Template({ text = 'Hello world', counter = 5, textColor, slot }) {
   return html`
     <frydon-button
       style="--frydon-button-text-color: ${textColor || 'black'}"
-      .title=${title}
+      .text=${text}
       .counter=${counter}
     >
       ${slot}
@@ -27,7 +27,7 @@ export const Regular = Template.bind({});
 
 export const CustomTitle = Template.bind({});
 CustomTitle.args = {
-  title: 'My title',
+  text: 'Testo',
 };
 
 export const CustomCounter = Template.bind({});
