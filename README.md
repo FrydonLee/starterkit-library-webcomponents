@@ -12,3 +12,8 @@ cd storybook
 add new componnet
 cd .\webcomponents\
 npm init @open-wc
+
+
+pubblicare pacchetti
+push
+lerna publish
