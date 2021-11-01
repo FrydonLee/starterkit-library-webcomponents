@@ -9,11 +9,12 @@ lerna-bbotstrap
 cd storybook
     npm install
 
-add new componnet
+- add new componnet
 cd .\webcomponents\
 npm init @open-wc
 
 
-pubblicare pacchetti
+- publish packages
 push
 lerna publish
+add "name": "@frydonlee/name-package",

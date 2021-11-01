@@ -1,5 +1,5 @@
 {
-  "name": "webcomponent-two",
+  "name": "@frydonlee/webcomponent-two",
   "description": "Webcomponent webcomponent-two following open-wc recommendations",
   "license": "MIT",
   "author": "webcomponent-two",
@@ -50,5 +50,6 @@
       "eslint --fix",
       "prettier --write"
     ]
-  }
+  },
+  "gitHead": "88123144373d3a383526f39997f076214582f5ec"
 }
