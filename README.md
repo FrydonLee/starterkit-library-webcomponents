@@ -1,41 +1,51 @@
 # starterkit-library-webcomponents
 
-Starter kit monorepo of web components.   
+Starter kit monorepo of web components.
 Include lerna, open-wc and storybook.
 
-to start :
+# Start
 
-lerna-bbotstrap
+lerna-botstrap
 cd storybook
-    npm install
+npm install
 
-- add new componnet
-cd .\webcomponents\
+# New Component
+
+cd .\webcomponents
 npm init @open-wc
 
+# Publish Packages
 
-- publish packages
+<your_token> : github token, created in :
+settings>developer settings>Personal Access Token
 
-1) add .npmrc file like :
-//npm.pkg.github.com/:_authToken=<your_token>
-@frydonlee:registry=https://npm.pkg.github.com
+<your_name> : your githib name, example : @frydonlee
 
-2) login 
-npm login --registry=https://npm.pkg.github.com --scope=@frydonlee
-login
-password = <your_token>
-mail
+<component_name> : the name of component,
+aka the name of the folder inside webcomponents
 
-3) add on packages.json of every pachages :
-A) "name": "@frydonlee/name-package",
-B) "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
-C)"repository": {
-    "type": "git",
-    "url": "git@github.com:frydonlee/starterkit-library-webcomponents.git",
-    "directory": "webcomponents/webcomponent-one"
-  }
+1. add .npmrc whit this content:
+   //npm.pkg.github.com/:_authToken=<your_token>
+   <your_name>:registry=https://npm.pkg.github.com
+   P.S remenbar to add file on .gitignore
+2. login to registry from console :
+   npm login --registry=https://npm.pkg.github.com --scope=<your_name>
+   login = <your_name>
+   password = <your_token>
+   mail = your mail
+3. for every pachages add on packages.json :
+   "name": "<your_name>/name-package",
+   B) "publishConfig": {
+   "registry": "https://npm.pkg.github.com/"
+   },
+   C)"repository": {
+   "type": "git",
+   "url": "git@github.com:frydonlee/starterkit-library-webcomponents.git",
+   "directory": "webcomponents/<component_name>"
+   }
+
+
 
 push changes
 lerna publish
+
