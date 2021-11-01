@@ -53,10 +53,10 @@ aka the name of the folder inside webcomponents
    password = <your_token>
    mail = your mail
 
-###### for every pachages
+###### For every pachages
 
 add on packages.json :
-
+```
 "name": "<your_name>/<component_name>", es : "name": "@frydonlee/webcomponent-one",
 
 "publishConfig": {
@@ -68,9 +68,9 @@ add on packages.json :
 "url": "<url_repository>",
 "directory": "webcomponents/<component_name>"
 }
+```
+###### Publish
 
-###### publish
-
-push changes
+push changes   
 lerna publish
 
