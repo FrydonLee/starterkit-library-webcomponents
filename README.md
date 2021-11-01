@@ -31,8 +31,6 @@ npm init @open-wc
 
 # Publish Packages
 
-###### First Configuration
-
 <your_token> : github token, created in :
 settings>developer settings>Personal Access Token
 
@@ -43,9 +41,11 @@ aka the name of the folder inside webcomponents
 
 <url_repository> : url of the repository, es : https://github.com/frydonlee/starterkit-library-webcomponents.git
 
+###### First Configuration
+
 1. add .npmrc whit this content:
    //npm.pkg.github.com/:_authToken=<your_token>
-   <your_name>:registry=https://npm.pkg.github.com
+   <your_name>:registry=https://npm.pkg.github.com   
    P.S remenbar to add file on .gitignore
 2. login to registry from console :
    npm login --registry=https://npm.pkg.github.com --scope=<your_name>
@@ -58,10 +58,12 @@ aka the name of the folder inside webcomponents
 add on packages.json :
 
 "name": "<your_name>/<component_name>", es : "name": "@frydonlee/webcomponent-one",
-B) "publishConfig": {
+
+"publishConfig": {
 "registry": "https://npm.pkg.github.com/"
 },
-C)"repository": {
+
+"repository": {
 "type": "git",
 "url": "<url_repository>",
 "directory": "webcomponents/<component_name>"
