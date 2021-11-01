@@ -1,9 +1,9 @@
 {
-  "name": "@frydonlee/frydon-header",
-  "description": "Webcomponent frydon-header following open-wc recommendations",
+  "name": "webcomponent-two",
+  "description": "Webcomponent webcomponent-two following open-wc recommendations",
   "license": "MIT",
-  "author": "frydon-header",
-  "version": "0.0.2",
+  "author": "webcomponent-two",
+  "version": "0.0.0",
   "main": "index.js",
   "module": "index.js",
   "scripts": {
@@ -50,13 +50,5 @@
       "eslint --fix",
       "prettier --write"
     ]
-  },
-  "repository": {
-    "type": "git",
-    "url": "hgit@github.com:frydonlee/starterkit-library-webcomponents.git",
-    "directory": "webcomponents/frydon-header"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
   }
 }

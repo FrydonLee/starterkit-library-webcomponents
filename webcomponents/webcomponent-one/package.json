@@ -1,9 +1,9 @@
 {
-  "name": "@frydonlee/frydon-button",
-  "description": "Webcomponent frydon-button following open-wc recommendations",
+  "name": "webcomponent-one",
+  "description": "Webcomponent webcomponent-one following open-wc recommendations",
   "license": "MIT",
-  "author": "frydon-button",
-  "version": "0.0.22",
+  "author": "webcomponent-one",
+  "version": "0.0.0",
   "main": "index.js",
   "module": "index.js",
   "scripts": {
@@ -26,7 +26,6 @@
     "@web/test-runner": "^0.13.16",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-prettier": "^4.0.0",
     "husky": "^4.3.8",
     "lint-staged": "^10.5.4",
     "prettier": "^2.3.2"
@@ -51,14 +50,5 @@
       "eslint --fix",
       "prettier --write"
     ]
-  },
-  "gitHead": "6058e2d2589f5c3c90b050303dcd58646390abca",
-  "repository": {
-    "type": "git",
-    "url": "hgit@github.com:frydonlee/starterkit-library-webcomponents.git",
-    "directory": "webcomponents/frydon-button"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
   }
 }

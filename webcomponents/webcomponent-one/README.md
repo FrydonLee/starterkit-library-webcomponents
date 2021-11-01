@@ -1,21 +1,21 @@
-# \<frydon-button>
+# \<webcomponent-one>
 
 This webcomponent follows the [open-wc](https://github.com/open-wc/open-wc) recommendation.
 
 ## Installation
 
 ```bash
-npm i frydon-button
+npm i webcomponent-one
 ```
 
 ## Usage
 
 ```html
 <script type="module">
-  import 'frydon-button/frydon-button.js';
+  import 'webcomponent-one/webcomponent-one.js';
 </script>
 
-<frydon-button></frydon-button>
+<webcomponent-one></webcomponent-one>
 ```
 
 ## Linting and formatting

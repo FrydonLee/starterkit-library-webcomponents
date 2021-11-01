@@ -13,14 +13,14 @@
 
   <script type="module">
     import { html, render } from 'lit';
-    import '../frydon-header.js';
+    import '../webcomponent-one.js';
 
     const title = 'Hello owc World!';
     render(
       html`
-        <frydon-header .title=${title}>
+        <webcomponent-one .title=${title}>
           some light-dom
-        </frydon-header>
+        </webcomponent-one>
       `,
       document.querySelector('#demo')
     );

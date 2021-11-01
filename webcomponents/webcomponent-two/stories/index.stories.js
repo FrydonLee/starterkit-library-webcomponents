@@ -1,9 +1,9 @@
 import { html } from 'lit';
-import '../frydon-header.js';
+import '../webcomponent-two.js';
 
 export default {
-  title: 'FrydonHeader',
-  component: 'frydon-header',
+  title: 'WebcomponentTwo',
+  component: 'webcomponent-two',
   argTypes: {
     title: { control: 'text' },
     counter: { control: 'number' },
@@ -13,13 +13,13 @@ export default {
 
 function Template({ title = 'Hello world', counter = 5, textColor, slot }) {
   return html`
-    <frydon-header
-      style="--frydon-header-text-color: ${textColor || 'black'}"
+    <webcomponent-two
+      style="--webcomponent-two-text-color: ${textColor || 'black'}"
       .title=${title}
       .counter=${counter}
     >
       ${slot}
-    </frydon-header>
+    </webcomponent-two>
   `;
 }
 

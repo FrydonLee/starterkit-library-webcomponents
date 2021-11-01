@@ -1,21 +1,21 @@
-# \<frydon-header>
+# \<webcomponent-two>
 
 This webcomponent follows the [open-wc](https://github.com/open-wc/open-wc) recommendation.
 
 ## Installation
 
 ```bash
-npm i frydon-header
+npm i webcomponent-two
 ```
 
 ## Usage
 
 ```html
 <script type="module">
-  import 'frydon-header/frydon-header.js';
+  import 'webcomponent-two/webcomponent-two.js';
 </script>
 
-<frydon-header></frydon-header>
+<webcomponent-two></webcomponent-two>
 ```
 
 ## Linting and formatting

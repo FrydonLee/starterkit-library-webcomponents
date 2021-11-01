@@ -1,25 +1,25 @@
 import { html } from 'lit';
-import '../frydon-button.js';
+import '../webcomponent-one.js';
 
 export default {
-  title: 'FrydonButton',
-  component: 'frydon-button',
+  title: 'WebcomponentOne',
+  component: 'webcomponent-one',
   argTypes: {
-    text: { control: 'text' },
-    // counter: { control: 'number' },
-    // textColor: { control: 'color' },
+    title: { control: 'text' },
+    counter: { control: 'number' },
+    textColor: { control: 'color' },
   },
 };
 
-function Template({ text = 'Hello world', counter = 5, textColor, slot }) {
+function Template({ title = 'Hello world', counter = 5, textColor, slot }) {
   return html`
-    <frydon-button
-      style="--frydon-button-text-color: ${textColor || 'black'}"
-      .text=${text}
+    <webcomponent-one
+      style="--webcomponent-one-text-color: ${textColor || 'black'}"
+      .title=${title}
       .counter=${counter}
     >
       ${slot}
-    </frydon-button>
+    </webcomponent-one>
   `;
 }
 
@@ -27,7 +27,7 @@ export const Regular = Template.bind({});
 
 export const CustomTitle = Template.bind({});
 CustomTitle.args = {
-  text: 'Testo',
+  title: 'My title',
 };
 
 export const CustomCounter = Template.bind({});

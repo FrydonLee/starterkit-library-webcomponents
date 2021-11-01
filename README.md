@@ -8,3 +8,7 @@ to start :
 lerna-bbotstrap
 cd storybook
     npm install
+
+add new componnet
+cd .\webcomponents\
+npm init @open-wc

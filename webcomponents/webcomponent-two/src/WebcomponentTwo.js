@@ -1,12 +1,12 @@
 import { html, css, LitElement } from 'lit';
 
-export class FrydonHeader extends LitElement {
+export class WebcomponentTwo extends LitElement {
   static get styles() {
     return css`
       :host {
         display: block;
         padding: 25px;
-        color: var(--frydon-header-text-color, #000);
+        color: var(--webcomponent-two-text-color, #000);
       }
     `;
   }
@@ -30,7 +30,8 @@ export class FrydonHeader extends LitElement {
 
   render() {
     return html`
-      <h2>${this.title} header Nr. ${this.counter}!</h2>
+      <h2>webcomponent-two</h2>
+      <h2>${this.title} Nr. ${this.counter}!</h2>
       <button @click=${this.__increment}>increment</button>
     `;
   }
