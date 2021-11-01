@@ -51,8 +51,13 @@
       "prettier --write"
     ]
   },
-  "gitHead": "a9629ef1657bfd3ac61d70f915382aa316393c82",
+  "gitHead": "5649efe4aa4a030b271e5ecd3e27b60a72e810e0",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "hgit@github.com:frydonlee/starterkit-library-webcomponents.git",
+    "directory": "webcomponents/webcomponent-one"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "@frydonlee/webcomponent-two",
+  "name": "webcomponent-two",
   "description": "Webcomponent webcomponent-two following open-wc recommendations",
   "license": "MIT",
   "author": "webcomponent-two",
@@ -51,8 +51,5 @@
       "prettier --write"
     ]
   },
-  "gitHead": "a9629ef1657bfd3ac61d70f915382aa316393c82",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  }
+  "gitHead": "5649efe4aa4a030b271e5ecd3e27b60a72e810e0"
 }
