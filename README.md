@@ -5,16 +5,33 @@ Include lerna, open-wc and storybook.
 
 # Start
 
+Change in package.json of lerna, the section
+
+```
+"repository": {
+  "type": "git",
+  "url": "https://github.com/frydonlee/starterkit-library-webcomponents.git"
+}
+```
+
+in terminal :
+
+```
 lerna-botstrap
 cd storybook
 npm install
+```
 
 # New Component
 
+```
 cd .\webcomponents
 npm init @open-wc
+```
 
 # Publish Packages
+
+###### First Configuration
 
 <your_token> : github token, created in :
 settings>developer settings>Personal Access Token
@@ -23,6 +40,8 @@ settings>developer settings>Personal Access Token
 
 <component_name> : the name of component,
 aka the name of the folder inside webcomponents
+
+<url_repository> : url of the repository, es : https://github.com/frydonlee/starterkit-library-webcomponents.git
 
 1. add .npmrc whit this content:
    //npm.pkg.github.com/:_authToken=<your_token>
@@ -33,18 +52,22 @@ aka the name of the folder inside webcomponents
    login = <your_name>
    password = <your_token>
    mail = your mail
-3. for every pachages add on packages.json :
-   "name": "<your_name>/name-package",
-   B) "publishConfig": {
-   "registry": "https://npm.pkg.github.com/"
-   },
-   C)"repository": {
-   "type": "git",
-   "url": "git@github.com:frydonlee/starterkit-library-webcomponents.git",
-   "directory": "webcomponents/<component_name>"
-   }
 
+###### for every pachages
 
+add on packages.json :
+
+"name": "<your_name>/<component_name>", es : "name": "@frydonlee/webcomponent-one",
+B) "publishConfig": {
+"registry": "https://npm.pkg.github.com/"
+},
+C)"repository": {
+"type": "git",
+"url": "<url_repository>",
+"directory": "webcomponents/<component_name>"
+}
+
+###### publish
 
 push changes
 lerna publish
