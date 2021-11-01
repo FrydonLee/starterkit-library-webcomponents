@@ -1,5 +1,5 @@
 {
-  "name": "webcomponent-two",
+  "name": "@frydonlee/webcomponent-two",
   "description": "Webcomponent webcomponent-two following open-wc recommendations",
   "license": "MIT",
   "author": "webcomponent-two",
@@ -51,5 +51,5 @@
       "prettier --write"
     ]
   },
-  "gitHead": "2853adc3e3e0249bdb1e1395ceb9fe193e24c124"
+  "gitHead": "8e8186e9c292e497c31e45850bb45a294e49c577"
 }
