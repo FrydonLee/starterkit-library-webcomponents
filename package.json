@@ -1,4 +1,5 @@
 {
+  "homepage": "http://frydonlee.github.io/starterkit-library-webcomponents",
   "name": "starterkit-library-webcomponents",
   "private": false,
   "devDependencies": {
