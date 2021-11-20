@@ -74,3 +74,7 @@ add on packages.json :
 push changes   
 lerna publish
 
+###### In case of version problem
+
+lerna version --force-publish
+

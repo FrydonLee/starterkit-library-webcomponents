@@ -1,11 +1,11 @@
-21 error Error: Command failed with exit code 128: git diff --name-only @frydonlee/webcomponent-two@0.0.9 -- webcomponents/webcomponent-one
-21 error fatal: bad revision '@frydonlee/webcomponent-two@0.0.9'
-21 error     at makeError (C:\Users\frydo\Codice\GitHub\starterkit-library-webcomponents\node_modules\execa\lib\error.js:60:11)
-21 error     at Function.module.exports.sync (C:\Users\frydo\Codice\GitHub\starterkit-library-webcomponents\node_modules\execa\index.js:194:17)
-21 error     at Object.execSync (C:\Users\frydo\Codice\GitHub\starterkit-library-webcomponents\node_modules\@lerna\child-process\index.js:39:16)
-21 error     at diffSinceIn (C:\Users\frydo\Codice\GitHub\starterkit-library-webcomponents\node_modules\@lerna\collect-updates\lib\make-diff-predicate.js:75:23)
-21 error     at hasDiffSinceThatIsntIgnored (C:\Users\frydo\Codice\GitHub\starterkit-library-webcomponents\node_modules\@lerna\collect-updates\lib\make-diff-predicate.js:34:18)
-21 error     at isCandidate (C:\Users\frydo\Codice\GitHub\starterkit-library-webcomponents\node_modules\@lerna\collect-updates\collect-updates.js:113:77)
-21 error     at C:\Users\frydo\Codice\GitHub\starterkit-library-webcomponents\node_modules\@lerna\collect-updates\lib\collect-packages.js:24:9
-21 error     at Map.forEach (<anonymous>)
-21 error     at collectPackages (C:\Users\frydo\Codice\GitHub\starterkit-library-webcomponents\node_modules\@lerna\collect-updates\lib\collect-packages.js:23:12)
+22 error Error: Command failed with exit code 128: git diff --name-only @frydonlee/webcomponent-two@0.0.9 -- webcomponents/webcomponent-one
+22 error fatal: bad revision '@frydonlee/webcomponent-two@0.0.9'
+22 error     at makeError (C:\Users\frydo\Codice\GitHub\starterkit-library-webcomponents\node_modules\execa\lib\error.js:60:11)
+22 error     at Function.module.exports.sync (C:\Users\frydo\Codice\GitHub\starterkit-library-webcomponents\node_modules\execa\index.js:194:17)
+22 error     at Object.execSync (C:\Users\frydo\Codice\GitHub\starterkit-library-webcomponents\node_modules\@lerna\child-process\index.js:39:16)
+22 error     at diffSinceIn (C:\Users\frydo\Codice\GitHub\starterkit-library-webcomponents\node_modules\@lerna\collect-updates\lib\make-diff-predicate.js:75:23)
+22 error     at hasDiffSinceThatIsntIgnored (C:\Users\frydo\Codice\GitHub\starterkit-library-webcomponents\node_modules\@lerna\collect-updates\lib\make-diff-predicate.js:34:18)
+22 error     at isCandidate (C:\Users\frydo\Codice\GitHub\starterkit-library-webcomponents\node_modules\@lerna\collect-updates\collect-updates.js:113:77)
+22 error     at C:\Users\frydo\Codice\GitHub\starterkit-library-webcomponents\node_modules\@lerna\collect-updates\lib\collect-packages.js:24:9
+22 error     at Map.forEach (<anonymous>)
+22 error     at collectPackages (C:\Users\frydo\Codice\GitHub\starterkit-library-webcomponents\node_modules\@lerna\collect-updates\lib\collect-packages.js:23:12)
