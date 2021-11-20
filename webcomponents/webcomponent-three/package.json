@@ -3,7 +3,7 @@
   "description": "Webcomponent webcomponent-three following open-wc recommendations",
   "license": "MIT",
   "author": "webcomponent-three",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": "dist/src/index.js",
   "module": "dist/src/index.js",
   "exports": {
