@@ -21,7 +21,7 @@ export class WebcomponentThree extends LitElement {
   render() {
     return html`
       <h2>webcomponent-three (typescript)</h2>
-      <h2>${this.title} .Nr. ${this.counter}!</h2>
+      <h2>${this.title} Nr. ${this.counter}!</h2>
       <button @click=${this.__increment}>increment</button>
     `;
   }
