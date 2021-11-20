@@ -3,7 +3,7 @@
   "description": "Webcomponent webcomponent-one following open-wc recommendations",
   "license": "MIT",
   "author": "webcomponent-one",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "module": "index.js",
   "scripts": {
