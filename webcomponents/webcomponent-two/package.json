@@ -58,5 +58,6 @@
     "type": "git",
     "url": "https://github.com/frydonlee/starterkit-library-webcomponents.git",
     "directory": "webcomponents/webcomponent-two"
-  }
+  },
+  "gitHead": "3e77681b73a91fd3e4685534a49eb7a2343b743f"
 }
