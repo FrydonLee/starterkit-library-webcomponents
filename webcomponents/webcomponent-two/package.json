@@ -51,7 +51,6 @@
       "prettier --write"
     ]
   },
-  "gitHead": "20ae676ee04e918c9472872dd7f7d691ca23c4ba",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
