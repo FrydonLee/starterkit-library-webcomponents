@@ -31,7 +31,7 @@ export class WebcomponentTwo extends LitElement {
   render() {
     return html`
       <h2>webcomponent-two</h2>
-      <h2>${this.title} Nr. ${this.counter}!</h2>
+      <h2>${this.title}  Nr. ${this.counter}!</h2>
       <button @click=${this.__increment}>increment</button>
     `;
   }
