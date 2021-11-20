@@ -2,6 +2,12 @@
   "homepage": "http://frydonlee.github.io/starterkit-library-webcomponents",
   "name": "starterkit-library-webcomponents",
   "private": false,
+  "scripts": {
+    "storybook-global": "lerna run build && cd storybook && npm run storybook",
+    "storybook-build-global": "lerna run build && cd storybook && npm run build-storybook",
+    "deploy-ghpages-storybook": "cd storybook && npm run deploy-ghpages-storybook",
+    "publish-packages": "lerna publish"
+  },
   "devDependencies": {
     "lerna": "^4.0.0"
   },
