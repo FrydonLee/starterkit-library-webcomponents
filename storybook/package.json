@@ -8,7 +8,7 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "predeploy": "npm run build-storybook",
-    "deploy-ghpages-storybook": "gh-pages -d storybook-static"
+    "deploy-ghpages-storybook": "build-storybook && gh-pages -d storybook-static"
   },
   "keywords": [],
   "author": "",
