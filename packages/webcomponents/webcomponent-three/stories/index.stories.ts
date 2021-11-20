@@ -2,7 +2,7 @@ import { html, TemplateResult } from 'lit';
 import '../src/webcomponent-three.js';
 
 export default {
-  title: 'WebcomponentThree',
+  title: 'Webcomponents/WebcomponentThree',
   component: 'webcomponent-three',
   argTypes: {
     title: { control: 'text' },

@@ -1,8 +1,8 @@
 {
-  "name": "@frydonlee/webcomponent-two",
-  "description": "Webcomponent webcomponent-two following open-wc recommendations",
+  "name": "@frydonlee/webcomponent-one",
+  "description": "Webcomponent webcomponent-one following open-wc recommendations",
   "license": "MIT",
-  "author": "webcomponent-two",
+  "author": "webcomponent-one",
   "version": "1.0.3",
   "main": "index.js",
   "module": "index.js",
@@ -57,7 +57,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/frydonlee/starterkit-library-webcomponents.git",
-    "directory": "webcomponents/webcomponent-two"
+    "directory": "packages/webcomponents/webcomponent-one"
   },
   "gitHead": "6b68597599db1ba1429b4903aaff029244c95d5c"
 }

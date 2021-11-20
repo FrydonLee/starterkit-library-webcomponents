@@ -1,6 +1,7 @@
 {
   "packages": [
-    "webcomponents/*"
+    "packages/webcomponents/*",
+    "packages/views/*"
   ],
   "version": "independent",
   "command": {

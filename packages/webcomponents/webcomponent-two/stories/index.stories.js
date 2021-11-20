@@ -2,7 +2,7 @@ import { html } from 'lit';
 import '../webcomponent-two.js';
 
 export default {
-  title: 'WebcomponentTwo',
+  title: 'Webcomponents/WebcomponentTwo',
   component: 'webcomponent-two',
   argTypes: {
     title: { control: 'text' },
